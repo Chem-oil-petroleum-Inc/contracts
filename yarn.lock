@@ -703,10 +703,12 @@
   dependencies:
     "@types/node" "*"
 
-"@types/debug@^4.1.5":
-  version "4.1.5"
-  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.5.tgz#b14efa8852b7768d898906613c23f688713e02cd"
-  integrity sha512-Q1y515GcOdTHgagaVFhHnIFQ38ygs/kmxdNpvpou+raI9UO3YZcHDngBSYKQklcKlvA7iuQlmIKbzvmxcOE9CQ==
+"@types/debug@^4.1.13":
+  version "4.1.13"
+  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.13.tgz#22d1cc9d542d3593caea764f974306ab36286ee7"
+  integrity sha512-KSVgmQmzMwPlmtljOomayoR89W4FynCAi3E8PPs7vmDVPe84hT+vGPKkJfThkmXs0x0jAaa9U8uW8bbfyS2fWw==
+  dependencies:
+    "@types/ms" "*"
 
 "@types/form-data@0.0.33":
   version "0.0.33"
@@ -744,6 +746,11 @@
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-8.0.3.tgz#51b21b6acb6d1b923bbdc7725c38f9f455166402"
   integrity sha512-vyxR57nv8NfcU0GZu8EUXZLTbCMupIUwy95LJ6lllN+JRPG25CwMHoB1q5xKh8YKhQnHYRAn4yW2yuHbf/5xgg==
+
+"@types/ms@*":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/ms/-/ms-2.1.0.tgz#052aa67a48eccc4309d7f0191b7e41434b90bb78"
+  integrity sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==
 
 "@types/node-fetch@^2.5.5":
   version "2.5.7"
